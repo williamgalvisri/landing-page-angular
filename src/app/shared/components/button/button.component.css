@@ -1,0 +1,41 @@
+.wrapper-button {
+    all: unset;
+    padding: 1.25rem 2.188rem;
+    border-radius: 0.875rem;
+    border: 2px solid var(--c-dark);
+    cursor: pointer;
+    user-select: none;
+    font-weight: 400;
+    transition: background-color .2s, color .2s;
+}
+
+/* Outline */
+.wrapper-button__outline {
+    background: transparent;
+}
+
+.wrapper-button__outline--dark {
+    border: 2px solid var(--c-dark);
+}
+
+
+.wrapper-button__outline--green {
+    border: 2px solid var(--c-green);
+}
+
+/* Filled */
+.wrapper-button--dark {
+    background-color: var(--c-dark);
+    color: var(--c-white);
+}
+
+.wrapper-button--green {
+    background-color: var(--c-green);
+}
+
+
+/* Animation */
+.wrapper-button__outline:hover {
+    background-color: var(--c-dark);
+    color: var(--c-white)
+}

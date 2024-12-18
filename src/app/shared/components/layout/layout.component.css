@@ -1,0 +1,10 @@
+.wrapper-layout {
+    display: grid;
+    grid-template-columns: repeat(1, 1fr);
+    grid-template-rows: repeat(3, 1fr);
+    height: max-content;
+    height: 100vh;
+    padding-left: 6.25rem;
+    padding-right: 6.25rem;
+    padding-top: 3.75rem;
+}

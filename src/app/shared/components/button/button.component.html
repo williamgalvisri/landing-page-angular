@@ -1,0 +1,14 @@
+<button
+    data-test="button"
+    [ngClass]="{
+        'wrapper-button__outline': type == 'outline',
+        'wrapper-button__outline--dark': type == 'outline' && color == 'dark',
+        'wrapper-button__outline--green': type == 'outline' && color == 'green',
+
+        'wrapper-button': true,
+        'wrapper-button--dark': type == 'fill' && color == 'dark',
+        'wrapper-button--green': type == 'fill' && color == 'green',
+    }"
+>
+    <ng-content></ng-content>
+</button>

@@ -1,0 +1,13 @@
+.wrapper-navbar {
+    display: flex;
+    flex-flow: row;
+    justify-content: space-between;
+}
+
+
+.wrapper-navbar > ul {
+    list-style: none;
+    display: flex;
+    gap: 40px;
+    align-items: center;
+}
