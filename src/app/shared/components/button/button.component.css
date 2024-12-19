@@ -5,6 +5,7 @@
     border: 2px solid var(--c-dark);
     cursor: pointer;
     user-select: none;
+    font-size: 1.25rem;
     font-weight: 400;
     transition: background-color .2s, color .2s;
 }

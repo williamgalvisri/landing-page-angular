@@ -2,9 +2,35 @@
     display: grid;
     grid-template-columns: repeat(1, 1fr);
     grid-template-rows: repeat(3, 1fr);
-    height: max-content;
-    height: 100vh;
     padding-left: 6.25rem;
     padding-right: 6.25rem;
     padding-top: 3.75rem;
+}
+
+
+.wrapper-layout__content {
+    margin-top: 3.75rem;
+}
+
+@media (max-width: 1280px) {
+    .wrapper-layout {
+        padding-left: 3.75rem;
+        padding-right: 3.75rem;
+    }
+}
+
+
+
+@media (max-width: 1200px) {
+    .wrapper-layout {
+        padding-left: 2.5rem;
+        padding-right: 2.5rem;
+    }
+}
+
+@media (max-width: 992px) {
+    .wrapper-layout {
+        padding-left: 1.25rem;
+        padding-right: 1.25rem;
+    }
 }

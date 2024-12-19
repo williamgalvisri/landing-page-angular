@@ -1,14 +1,21 @@
 <nav class="wrapper-navbar">
     <!-- Brand -->
-    <img  height="36" src="assets/image/logo.png" />
+    <img height="36" src="assets/image/logo.png" alt="logo" />
     <!-- Items -->
     <ul>
-        <li>About Us</li>
-        <li>Services</li>
-        <li>Use Case</li>
-        <li>Pricing</li>
+        <li><span>About Us</span></li>
+        <li><span>Services</span></li>
+        <li><span>Use Case</span></li>
+        <li><span>Pricing</span></li>
 
         <li><app-button>Request a Quote</app-button></li>
     </ul>
-    <!-- Button -->
+
+    <!-- Burguer menu icon -->
+    <img
+        (click)="isOpen = !isOpen"
+        class="wrapper-navbar__burguer-menu"
+        [src]="!isOpen ? 'assets/svg/burger-menu.svg' : 'assets/svg/burger-menu-close.svg'"
+        alt="burguer-menu-open" />
+
 </nav>
