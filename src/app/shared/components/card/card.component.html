@@ -25,10 +25,10 @@
                 [ngTemplateOutlet]="redirectSvg"
                 [ngTemplateOutletContext]="{background: colorConfig.svg.fill, color: colorConfig.svg.color}"
             />
-            <span>Learn More</span>
+            <span [ngStyle]="{'color': colorConfig.svg.textColor}">Learn More</span>
         </div>
     </div>
-    <img height="100%" [src]="'assets/image/'+illustration+'.png'" alt="service-illustration-1"  />
+    <img height="100%" width="auto" [src]="'assets/image/'+illustration+'.png'" [alt]="illustration" />
 </div>
 
 

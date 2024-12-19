@@ -4,8 +4,11 @@
     padding-left: 6.25rem;
     padding-right: 6.25rem;
     padding-top: 3.75rem;
+    max-width: 1990px;
+    margin: auto;
 }
-@media (max-width: 1280px) {
+
+@media (max-width: 1350px) {
     .wrapper-layout {
         padding-left: 3.75rem;
         padding-right: 3.75rem;

@@ -26,4 +26,37 @@
     align-items: center;
     gap: 0.938rem;
     font-size: 1.25rem;
+    cursor: pointer;
+    user-select: none;
+}
+
+
+.wrapper-card__url-redirect > svg {
+    transition: transform 0.3s;
+}
+
+.wrapper-card__url-redirect > svg:hover {
+    transform: rotate(30deg);
+}
+
+@media (max-width: 1280px) {
+    .wrapper-card__url-redirect > span {
+        display: none;
+    }
+
+    .wrapper-card__content > h3{
+        font-size: 1.625rem;
+    }
+
+    .wrapper-card {
+        align-items: end;
+    }
+
+}
+
+@media (max-width: 990px) {
+    .wrapper-card > img {
+        max-width: 8.063rem;
+    }
+
 }

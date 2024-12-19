@@ -24,6 +24,7 @@ export class CardComponent {
                     svg: {
                         fill: 'var(--c-dark)',
                         color: 'var(--c-green)',
+                        textColor: 'var(--c-black)',
                     }
                 };
             case 'green':
@@ -34,6 +35,7 @@ export class CardComponent {
                     svg: {
                         fill: 'var(--c-dark)',
                         color: 'var(--c-green)',
+                        textColor: 'var(--c-black)',
                     }
                 };
             case 'black':
@@ -44,6 +46,7 @@ export class CardComponent {
                     svg: {
                         fill: 'var(--c-white)',
                         color: 'var(--c-dark)',
+                        textColor: 'var(--c-white)',
                     }
                 };
         }
