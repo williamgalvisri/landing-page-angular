@@ -1,0 +1,29 @@
+.wrapper-card {
+    padding: 3.125rem;
+    border: 1px solid var(--c-dark);
+    box-shadow: 0px 3px 1px 0px var(--c-dark);
+    border-radius: 2.188rem;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+
+.wrapper-card__title--highlight > span{
+    padding: 0px 7px;
+    border-radius: 7px;
+}
+
+.wrapper-card__flex {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    min-height: 210px;
+}
+
+.wrapper-card__url-redirect {
+    display: flex;
+    align-items: center;
+    gap: 0.938rem;
+    font-size: 1.25rem;
+}

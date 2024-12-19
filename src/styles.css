@@ -28,7 +28,7 @@ h2 {
 }
 
 h3 {
-    font-size: 2rem;
+    font-size: 1.875rem;
 }
 
 h4 {
@@ -37,4 +37,11 @@ h4 {
 
 body {
     background-color: var(--c-white);
+}
+
+@media (max-width: 1150px) {
+    p {
+        font-size: 1rem !important;
+        line-height: 1.5rem !important;
+    }
 }
