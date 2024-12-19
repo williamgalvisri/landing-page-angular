@@ -19,6 +19,8 @@ ul > li > span {
     line-height: 28px;
     border-radius: 7px;
     padding: 0px 7px;
+
+    transition: background-color 0.3s ease;
 }
 
 ul > li > span:hover {
@@ -27,16 +29,47 @@ ul > li > span:hover {
 
 .wrapper-navbar__burguer-menu {
     display: none;
+}
 
+.wrapper-navbar__mobile{
+    display: none;
+}
+
+.wrapper-menu-mobile {
+    display: none;
 }
 
 @media (max-width: 1150px) {
-    .wrapper-navbar > ul {
+    .wrapper-navbar > ul{
         display: none;
     }
 
     img {
         cursor: pointer;
+    }
+
+    .wrapper-menu-mobile {
+        display: block;
+        position: relative;
+    }
+
+    .wrapper-menu-mobile__context{
+        display: block;
+        position: absolute;
+        top: 0;
+        border-radius: 10px;
+        border: 2px solid var(--c-dark);
+        background-color: var(--c-white);
+        padding: 0.875rem;
+        margin-top: 1.875rem;
+        width: 100%;
+    }
+
+    .wrapper-menu-mobile__context > ul {
+        list-style: none;
+        display: flex;
+        flex-direction: column;
+        gap: 20px;
     }
 
     .wrapper-navbar__burguer-menu {

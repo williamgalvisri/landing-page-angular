@@ -13,9 +13,20 @@
 
     <!-- Burguer menu icon -->
     <img
-        (click)="isOpen = !isOpen"
+        (click)="toggle()"
         class="wrapper-navbar__burguer-menu"
         [src]="!isOpen ? 'assets/svg/burger-menu.svg' : 'assets/svg/burger-menu-close.svg'"
         alt="burguer-menu-open" />
 
 </nav>
+<section class="wrapper-menu-mobile">
+    <div *ngIf="isOpen" class="wrapper-menu-mobile__context" [@showContext]>
+        <ul>
+            <li><span>About Us</span></li>
+            <li><span>Services</span></li>
+            <li><span>Use Case</span></li>
+            <li><span>Pricing</span></li>
+            <li><app-button>Request a Quote</app-button></li>
+        </ul>
+    </div>
+</section>

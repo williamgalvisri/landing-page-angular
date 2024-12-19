@@ -25,6 +25,7 @@
     .wrapper-layout {
         padding-left: 2.5rem;
         padding-right: 2.5rem;
+        padding-top: 1.875rem;
     }
 }
 
@@ -32,5 +33,6 @@
     .wrapper-layout {
         padding-left: 1.25rem;
         padding-right: 1.25rem;
+        padding-top: 1.875rem;
     }
 }
