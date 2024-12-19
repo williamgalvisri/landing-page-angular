@@ -2,8 +2,6 @@ import { Component } from '@angular/core';
 import { ButtonComponent } from '../button/button.component';
 import { CommonModule } from '@angular/common';
 import { animate, style, transition, trigger } from '@angular/animations';
-import { BrowserModule } from '@angular/platform-browser';
-import { BrowserAnimationsModule } from '@angular/platform-browser/animations';
 
 @Component({
     selector: 'app-navbar',
@@ -17,7 +15,6 @@ import { BrowserAnimationsModule } from '@angular/platform-browser/animations';
         trigger(
             'showContext',
             [
-                // Add animation here
                 transition(':enter', [
                     style({ opacity: 0 }),
                     animate('0.3s', style({ opacity: 1 })),

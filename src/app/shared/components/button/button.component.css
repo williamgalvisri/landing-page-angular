@@ -40,3 +40,14 @@
     background-color: var(--c-dark);
     color: var(--c-white)
 }
+
+
+
+
+
+@media (max-width: 1150px) {
+    .wrapper-button {
+        width: -webkit-fill-available;
+        text-align: center;
+    }
+}
