@@ -37,13 +37,21 @@
 .wrapper-companies{
     display: flex;
     justify-content: space-between;
-    filter: grayscale(100%);
     flex-wrap: wrap;
 }
 
 .wrapper-cta__image--mobile {
     display: none;
 }
+
+.wrapper-companies > img {
+    filter: grayscale(100%);
+}
+
+.wrapper-companies > img:hover {
+    filter: grayscale(0%);
+}
+
 
 
 @media (max-width: 1150px) {
