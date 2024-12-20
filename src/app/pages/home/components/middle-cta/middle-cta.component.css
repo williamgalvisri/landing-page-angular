@@ -1,0 +1,27 @@
+.wrapper-middle-cta {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+}
+
+.wrapper-middle-cta__content {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: flex-start;
+    max-width: 500px;
+    gap: 2.875rem;
+}
+
+
+@media (max-width: 990px) {
+    .wrapper-middle-cta > img {
+        display: none;
+    }
+
+    .wrapper-middle-cta__content {
+        padding: 0 3.125rem;
+        max-width: 100%;
+    }
+}
+
