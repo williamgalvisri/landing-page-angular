@@ -1,0 +1,58 @@
+.wrapper-case-studies {
+    margin-top: 5rem;
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    padding: 3.75rem 4.375rem;
+    gap: 4rem;
+    color: var(--c-white);
+    background-color: var(--c-dark);
+    border-radius: 2.813rem;
+}
+
+
+.wrapper-case-studies > div {
+    display: flex;
+    flex-direction: column;
+    gap: 1.25rem;
+    border-right: 1px solid var(--c-gray);
+    padding-right: 4rem;
+}
+
+.wrapper-case-studies > div:last-child {
+    border-right: none;
+    padding-right: none;
+}
+
+.wrapper-learning-more  > span{
+    font-size: 20px;
+    color: var(--c-green);
+}
+
+.wrapper-learning-more  > span,
+.wrapper-learning-more  > svg {
+    cursor: pointer;
+}
+
+.wrapper-learning-more {
+    display: flex;
+    align-items: center;
+}
+
+
+@media (max-width: 1150px) {
+    .wrapper-case-studies {
+        margin-top: 2.5rem;
+        display: flex;
+        background-color: transparent;
+        overflow-x: hidden;
+        padding: 0;
+        border-radius: 0;
+    }
+
+    .wrapper-case-studies > div {
+        background-color: var(--c-dark);
+        border-radius: 2.813rem;
+        padding: 2.5rem 3.125rem;
+        min-width: 350px;
+    }
+}

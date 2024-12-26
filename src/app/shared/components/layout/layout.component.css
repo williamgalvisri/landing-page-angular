@@ -8,6 +8,10 @@
     margin: auto;
 }
 
+.wrapper-layout__content {
+    overflow-x: hidden;
+}
+
 @media (max-width: 1350px) {
     .wrapper-layout {
         padding-left: 3.75rem;
