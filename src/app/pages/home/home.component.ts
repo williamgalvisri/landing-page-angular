@@ -1,5 +1,5 @@
 import { Component } from '@angular/core';
-import { SharedModule } from '../../shared/shared.module';
+import { SharedModule } from '@shared/shared.module';
 import { CtaComponent } from './components/cta/cta.component';
 import { ServicesComponent } from "./components/services/services.component";
 import { MiddleCtaComponent } from "./components/middle-cta/middle-cta.component";
